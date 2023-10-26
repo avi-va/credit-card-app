@@ -1,0 +1,53 @@
+.icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 2vw;
+    margin-top: 0vh;
+}
+.front{
+    background-image: url(./bg-card-front.png);
+    height: 245px;
+    width: 441px;
+    border-radius: 8px;
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-top: 15vh;
+}
+.front-info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: 'Roboto','sans-serif';
+}
+.front p{
+    color: #fff;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+.cardNumber{
+    font-family: 'Inter', 'sans-serif';
+    font-size: 27px;
+    letter-spacing: 7px;
+    height: 70px;
+}
+
+.back{
+    background-image: url(./bg-card-back.png);
+    height: 245px;
+    width: 447px;
+    border-radius: 8px;
+    margin-top: 4vh;
+    margin-left: 20vw;
+    position: fixed;
+}
+.back p{
+    color: #fff;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 18px;
+    margin-left: 24vw;
+    margin-top: 15vh;
+}
